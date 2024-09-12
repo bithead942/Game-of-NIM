@@ -1,0 +1,36 @@
+Computer First
+15, 13, 11, 9, 7, 5, 3, 1
+(2,027,025)
+
+
+Player 1 First
+14, 12, 10, 8, 6, 4, 2
+(645,120)
+
+
+Logic:
+if a matrix is full, force computer goes first, otherwise, random
+If computer goes first, load Computer first matrix
+If Player 1 goes first, load Player 1 first matrix
+
+Play the game
+Track all moves from both players.
+Maintain a list of legal moves - update after each move.
+
+select the first available legal move without a "1".  
+If all moves have "1", select first available legal move.
+
+If computer looses, assume last move caused loss - mark a "1" and never do that move again.
+If last move already had a "1", back up to the last move made without a "1" and mark a "1"
+
+
+15 LED pins
+15 LED Button pins
+1 Commit Button
+1 Commit LED
+1 Clear Button
+1 Clear LED
+1 New Game Button
+1 New Game LED
+
+2 TX/RX for LCD

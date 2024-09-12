@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Nim_4
+</name>
+</assembly>
+<members>
+<member name="T:Nim_4.Form1">
+ <summary>
+ Codes of possible moves
+ 
+ Remaining Game Play
+ 1    Take 1 from A
+ 2    Take 2 from A
+ 3    Take 3 from A
+ 4    Take 1 from B
+ 5    Take 2 from B
+ 6    Take 3 from B
+ 7    Take 4 from B
+ 8    Take 5 from B
+ 9    Take 1 from C
+ 10   Take 2 from C
+ 11   Take 3 from C
+ 12   Take 4 from C
+ 13   Take 5 from C
+ 14   Take 6 from C
+ 15   Take 7 from C
+ 
+ Including the selection of who goes first, there are a max of 15 possible moves
+ 
+ Arduino Pin Assignment
+ 15 LED pins, 15 LED Button pins, 2 TX/RX for LCD, 2 TX/RX for PC
+ 1 Commit Button, 1 Commit LED, 1 Clear Button, 1 Clear LED, 1 New Game Button, 1 New Game LED
+ 
+ Digital Pin     Function
+ =============================================
+ 0               Serial RX (PC)
+ 1               Serial TX (PC)
+ 2               Commit Button
+ 3               Commit LED
+ 4               Clear Button
+ 5               Clear LED
+ 6               New Game Button
+ 7               Button A1
+ 8               Button A2
+ 9               Button A3
+ 10              Button B1
+ 11              Button B2
+ 12              Button B3
+ 13              Button B4
+ 14              Button B5
+ 15              Button C1
+ 16              Button C2
+ 17              Button C3
+ 18              Serial RX (LCD)
+ 19              Serial TX (LCD)
+ 20              Button C4
+ 21              Button C5
+ 22              Button C6
+ 23              Button C7
+ 24              LED A1 Red
+ 25              LED A1 Blue
+ 26              LED A2 Red
+ 27              LED A2 Blue
+ 28              LED A3 Red
+ 29              LED A3 Blue
+ 30              LED B1 Red
+ 31              LED B1 Blue
+ 32              LED B2 Red
+ 33              LED B2 Blue
+ 34              LED B3 Red
+ 35              LED B3 Blue
+ 36              LED B4 Red
+ 37              LED B4 Blue
+ 38              LED B5 Red
+ 39              LED B5 Blue
+ 40              LED C1 Red
+ 41              LED C1 Blue
+ 42              LED C2 Red
+ 43              LED C2 Blue
+ 44              LED C3 Red
+ 45              LED C3 Blue
+ 46              LED C4 Red
+ 47              LED C4 Blue
+ 48              LED C5 Red
+ 49              LED C5 Blue
+ 50              LED C6 Red
+ 51              LED C6 Blue
+ 52              LED C7 Red
+ 53              LED C7 Blue
+ 
+ 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Nim_4.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Nim_4.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Nim_4.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>
